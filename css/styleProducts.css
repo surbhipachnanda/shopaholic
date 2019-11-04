@@ -504,8 +504,13 @@ i {
 
 .cartButton {
     padding-top: 5px;
-    width: 100%;
+    width: 50%;
     text-align: center;
+}
+
+.cartButton a {
+    text-decoration: none;
+    color: white;
 }
 
 .item-name {
