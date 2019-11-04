@@ -122,11 +122,6 @@ a {
     align-items: baseline;
 }
 
-.landingContent {
-    width: 100%px;
-    height: 100%;
-}
-
 .contentTitle {
     color: rgb(255, 114, 78);
     margin: auto;
@@ -220,7 +215,7 @@ i {
 
 .landingContent {
     height: 90%;
-    width: 100%;
+    width: 100vw;
     padding: 100px;
     padding-top: 0;
 }
@@ -230,7 +225,7 @@ i {
     height: 500px;
     float: left;
     position: fixed;
-    margin-left: -200px;
+    margin-left: -100px;
     top: 18%;
 }
 
