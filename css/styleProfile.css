@@ -83,7 +83,6 @@
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
-    height: 100%;
     padding-bottom: 200px;
     position: relative;
 }
@@ -101,9 +100,7 @@ a {
 /* Landing */
 
 .landing {
-    height: 100vh;
     width: 100%;
-    min-height: 600px;
 }
 
 .nav {
@@ -157,7 +154,6 @@ a {
 }
 
 .landingContent {
-    height: 90%;
     width: 100vw;
     text-align: center;
     padding: 100px;
@@ -193,61 +189,32 @@ a {
     flex-wrap: wrap;
     padding: 20px;
     background: rgb(255, 255, 255);
-    width: 700px;
+    width: 300px;
     margin: auto;
     margin-top: 10px;
     border-radius: 20px;
     text-align: center;
 }
 
-.cartItem {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    color: rgb(241, 73, 31);
-    border-bottom: 1px solid rgb(163, 163, 163, 0.7);
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-}
-
-.itemImage {
-    width: 30%;
-}
-
-.itemImage img {
-    width: 80px;
-    height: 80px;
-}
-
-.itemDetails {
-    width: 40%;
+.userDetails {
     text-align: left;
-    font-weight: 400;
     font-size: 18px;
+    color: rgb(189, 82, 55);
 }
 
-.itemDetails>p:nth-child(1) {
-    font-weight: 900;
+.userDetails h1 {
+    font-size: 20px;
+    color: brown;
 }
 
-.itemPrice {
-    width: 30%;
-    text-align: right;
-    font-weight: 400;
+#name {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#payment {
+    font-weight: 600;
     font-size: 18px;
-    padding-right: 30px;
-    box-sizing: border-box;
-}
-
-.itemPrice button {
-    padding: 10px;
-    border-radius: 10px;
-    color: red;
-}
-
-.far {
-    padding: 0;
 }
 
 #paymentButton {
@@ -261,6 +228,11 @@ a {
 #paymentButton a {
     text-decoration: none;
     color: white;
+}
+
+.cartWrapper i {
+    color: brown;
+    padding-right: 10px;
 }
 
 
