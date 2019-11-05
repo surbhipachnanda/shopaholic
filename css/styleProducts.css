@@ -154,63 +154,6 @@ a {
 }
 
 
-/* Footer */
-
-.footer {
-    color: white;
-    height: 80px;
-    width: 100%;
-    background: rgb(255, 114, 78, 0.8);
-    /* position: absolute; */
-    bottom: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.contactUs {
-    text-align: right;
-    padding-right: 40px;
-    width: 30%;
-}
-
-.contactUs>p {
-    font-weight: 300;
-}
-
-.links {
-    text-align: left;
-    width: 30%;
-    color: white;
-    padding-left: 40px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.copyright {
-    text-align: center;
-    width: 30%;
-}
-
-.fab {
-    color: white;
-    text-decoration: none;
-}
-
-i {
-    font-size: 25px;
-    padding-right: 15px;
-}
-
-.contactUs h1 {
-    text-align: right;
-    font-size: 20px;
-}
-
-
 /* Landing */
 
 .landingContent {
@@ -218,6 +161,33 @@ i {
     width: 100vw;
     padding: 100px;
     padding-top: 0;
+}
+
+.searchBar {
+    text-align: center;
+    padding-top: 20px;
+    width: 250px;
+    margin: auto;
+}
+
+.searchBar form {
+    background: #ff7856;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.searchBar input {
+    color: white;
+}
+
+.searchBar i {
+    font-size: 15px;
+    color: white;
+    padding-right: 0px;
+}
+
+.searchBar input::placeholder {
+    color: white;
 }
 
 .menuBarLeft {
@@ -524,4 +494,61 @@ i {
     text-align: right;
     font-size: 15px;
     font-weight: 800;
+}
+
+
+/* Footer */
+
+.footer {
+    color: white;
+    height: 80px;
+    width: 100%;
+    background: rgb(255, 114, 78, 0.8);
+    /* position: absolute; */
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactUs {
+    text-align: right;
+    padding-right: 40px;
+    width: 30%;
+}
+
+.contactUs>p {
+    font-weight: 300;
+}
+
+.links {
+    text-align: left;
+    width: 30%;
+    color: white;
+    padding-left: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    width: 30%;
+}
+
+.fab {
+    color: white;
+    text-decoration: none;
+}
+
+i {
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+.contactUs h1 {
+    text-align: right;
+    font-size: 20px;
 }
